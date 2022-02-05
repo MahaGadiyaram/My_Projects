@@ -1,0 +1,76 @@
+1.Get the names and the quantities in stock for each product
+
+  SELECT productName,quantityPerUnit FROM products
+  WHERE unitsInStock > 0;
+  
+2.Get a list of current products (Product ID and name).
+  SELECT productId,productName
+  FROM products
+  WHERE unitsOnOrder >0;
+  
+3.Get a list of the most and least expensive products (name and unit price).
+  SELECT productName,unitPrice
+  FROM products
+  ORDER BY unitPrice DESC;
+  
+4.Get products that cost less than $20.
+  SELECT productName,unitPrice
+  FROM products
+  WHERE unitPrice > 20;
+  
+5.Get products that cost between $15 and $25.
+  SELECT productName,unitPrice
+  FROM products
+  WHERE unitPrice BETWEEN 15 AND 25;
+  
+6.Get products above average price.
+  SELECT productId,productName,unitPrice
+  FROM products
+  WHERE unitPrice > (SELECT AVG(unitPrice) FROM products);
+  
+7.Find the ten most expensive products.
+  SELECT productId,productName,unitPrice
+  FROM products
+  ORDER BY unitPrice DESC
+  LIMIT 10;
+  
+8.Get a list of discontinued products (Product ID and name).
+  SELECT productId,productName
+  FROM products
+  WHERE discontinued = 1;
+  
+9.Count current and discontinued products.
+  SELECT COUNT(productName)
+  FROM products
+  GROUP BY discontinued;
+  
+10.Find products with less units in stock than the quantity on order.
+   SELECT productName
+   FROM products
+   WHERE unitsInStock < unitsOnOrder;
+   
+11.Find the customer who had the highest order amount
+   CREATE VIEW ordervaluedetails AS
+   SELECT CustomerID ,ROUND(sum(unitPrice * quantity)) AS ValueOfOrders
+   FROM order_details AS od 
+   JOIN orders AS o 
+   ON od.OrderID = o.OrderID 
+   GROUP BY CustomerID
+   ORDER BY ValueOfOrders DESC;
+
+12.Get orders for a given employee and the according customer
+   SELECT orderId,customerId,employeeId
+   FROM orders AS orderId
+   GROUP BY employeeId
+   ORDER BY employeeId ASC;
+   
+13.Find the hiring age of each employee
+   SELECT employeeId,
+          CONCAT(firstName ,'',lastName) AS employeeName,
+          AGE(hireDate,birthDate) AS hiringAge
+   FROM employees
+   WHERE hireDate IS NOT NULL OR birthDate IS NOT NULL 
+   ORDER BY  hiringAge DESC;
+   
+14.Create views and/or named queries for some of these queries
+   q11

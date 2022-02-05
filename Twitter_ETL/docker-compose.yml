@@ -1,0 +1,29 @@
+version: '3'
+services:
+  tweet_collector:
+     build: tweet_collector/
+     volumes:
+     - ./tweet_collector:/app
+     links:
+     - mongodb
+  etl_tweets:
+     build: etl_tweets/
+     volumes:
+     - ./etl_tweets:/app
+     links:
+     - mongodb
+     - postgresdb
+  mongodb:
+     image: mongo
+     container_name: mongotweet
+     ports:
+     - 27017:27017
+  postgresdb:
+     image: postgres
+     container_name: psqltweet
+     ports:
+     - "5555:5432"
+     environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=sentiment_db
