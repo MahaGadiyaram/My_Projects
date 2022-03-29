@@ -5,8 +5,15 @@ This Project is a Recipe Recommender which takes a list of ingredeints as user i
 
 Contents:
 
-1.Scraper notebooks : To make API calls and get the data , I did basic Extraction and Cleaning of data here. Since I had       limited points to make API calls I created 9 scrapers to get random calls with API keys.
-2. all_recipes: Merging all recipes from 9 scrapers and further Feature Engineering
-3. ingredients_parser: To parse all ingredients and applied stopwords for some recurring words
-4. Model: Took the parserd ingredients and applied tfidf on them and later KMeans Clustering. In this nitebook I also defined the Recommendation Function.Finally created a word cloud for app
-5. streamlit app: Created app via Streamlit 
+1.Scraper notebooks : To make API calls and get the data , I did basic Extraction and Cleaning of data here. Since I had limited points to make API calls I created 9 scrapers to get random calls with API keys.
+
+2.all_recipes: Merging all recipes from 9 scrapers and further Feature Engineering
+
+
+3.ingredients_parser: To parse all ingredients and applied stopwords for some recurring words
+
+
+4.Model: Took the parserd ingredients and applied tfidf on them and later KMeans Clustering. In this nitebook I also defined the Recommendation Function.Finally created a word cloud for app
+
+
+5.streamlit app: Created app via Streamlit 
