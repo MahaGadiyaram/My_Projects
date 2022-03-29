@@ -19,4 +19,4 @@ Contents:
 5.streamlit app: Created app via Streamlit 
 
 
-![](https://img.shields.io/badge/<Code>-<Python>-informational?style=flat&logo=<Python_logo>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=<Python_logo>&logoColor=white&color=2bbc8a)
