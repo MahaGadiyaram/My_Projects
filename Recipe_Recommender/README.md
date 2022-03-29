@@ -5,7 +5,7 @@ This Project is a Recipe Recommender which takes a list of ingredeints as user i
 
 Contents:
 
-1.Scraper notebooks : To make API calls and get the data , I did basic Extraction and Cleaning of data here. Since I had limited points to make API calls I created 9 scrapers to get random calls with API keys.
+1.Scraper notebooks : In these notebooks I made API calls and got the data , I did basic Extraction and Cleaning of data here. Since I had limited points to make API calls I created 9 scrapers to make random calls with API keys.
 
 2.all_recipes: Merging all recipes from 9 scrapers and further Feature Engineering
 
