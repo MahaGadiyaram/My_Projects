@@ -6,5 +6,5 @@
 Here you can find all Data Science Projects
 <h4>📕 My Latest</h4>
 <!-- BLOG-POST-LIST:START -->
-- [Recipe Recommender based on KMeans Clustering Model]https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Recipe_Recommender
+[Recipe Recommender based on KMeans Clustering] (https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Recipe_Recommender)
 
