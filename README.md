@@ -6,7 +6,7 @@
 Here you can find all Data Science Projects
 <h4>📕 Overview of all Projects</h4>
 
-  [Project1: Recipe Recommender based on KMeans Clustering](https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Recipe_Recommender)
+  #[Project1: Recipe Recommender based on KMeans Clustering](https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Recipe_Recommender)
   1. Built a Recipe Recommender app on Streamlit based on KMeans Clustering Model
   2. Scrapped over 700 recipes from Spoonacular API by making API calls
   3. Flattended the JSON file,extracted the data ,cleaned it and feature engineered it.
