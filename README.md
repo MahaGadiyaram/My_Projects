@@ -16,4 +16,4 @@ Here you can find all Data Science Projects
   
   Project Workflow:
   
-  ![alt text]()
+  ![alt text](https://github.com/MahaGadiyaram/DataScientist_portfolio/blob/main/images/project_workflow.PNG)
