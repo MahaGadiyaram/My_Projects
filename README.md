@@ -14,6 +14,6 @@ Here you can find all Data Science Projects
   5. Defined a recommendation function which takes ingredients, time of cooking,dishtype(Breakfast,Maindish) as input and recommends Recipes
   6. Finally presented the project using Streamlit app
   
-  Project Workflow:
+  # H1 Project Workflow:
   
   ![alt text](https://github.com/MahaGadiyaram/DataScientist_portfolio/blob/main/images/project_workflow.PNG)
