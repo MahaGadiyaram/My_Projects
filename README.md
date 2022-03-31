@@ -24,4 +24,6 @@ Here you can find all Data Science Projects
   
   3.Finally, the best or worst sentiment is published on Slack every 10 minutes.
   
+  <h4>Project WorkFlow:</h4>
+  
   ![alt text](https://github.com/MahaGadiyaram/DataScientist_portfolio/blob/main/images/ETL_workflow.PNG)
