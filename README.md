@@ -17,6 +17,9 @@ Here you can find all Data Science Projects
   ![alt text](https://github.com/MahaGadiyaram/DataScientist_portfolio/blob/main/images/project_workflow.PNG)
   
   [Project2: Twitter Sentiment Analysis](https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Twitter_ETL)
+  
   1.In this project, I have built a data pippeline that collect tweets and stores them in a database.
-  2.Next, the sentiment of tweets is analyzed and the annotated tweets are stored in a second database. 
+  
+  2.Next, the sentiment of tweets is analyzed and the annotated tweets are stored in a second database.
+  
   3.Finally, the best or worst sentiment is published on Slack every 10 minutes.
