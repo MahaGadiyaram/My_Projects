@@ -23,3 +23,5 @@ Here you can find all Data Science Projects
   2.Next, the sentiment of tweets is analyzed and the annotated tweets are stored in a second database.
   
   3.Finally, the best or worst sentiment is published on Slack every 10 minutes.
+  
+  ![alt text](https://github.com/MahaGadiyaram/DataScientist_portfolio/blob/main/images/ETL_workflow.PNG)
