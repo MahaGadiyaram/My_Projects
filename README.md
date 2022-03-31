@@ -6,7 +6,7 @@
 Here you can find all Data Science Projects
 <h1>📕 Overview of all Projects</h1>
 
-  [Project1: Recipe Recommender based on KMeans Clustering](https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Recipe_Recommender)
+  # [Project1: Recipe Recommender based on KMeans Clustering](https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Recipe_Recommender)
   
   1. Built a Recipe Recommender app on Streamlit based on KMeans Clustering Model
   2. Scrapped over 700 recipes from Spoonacular API by making API calls
@@ -17,7 +17,7 @@ Here you can find all Data Science Projects
   
   ![alt text](https://github.com/MahaGadiyaram/DataScientist_portfolio/blob/main/images/project_workflow.PNG)
   
-  [Project2: Twitter Sentiment Analysis- The Data Pipeline](https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Twitter_ETL)
+  # [Project2: Twitter Sentiment Analysis- The Data Pipeline](https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Twitter_ETL)
   
   1.In this project, I have built a data pippeline that collect tweets and stores them in a database.
   
