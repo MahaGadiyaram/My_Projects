@@ -19,8 +19,12 @@ Contents:
 5.streamlit app: Created app via Streamlit 
 
 
+![alt text](https://github.com/MahaGadiyaram/DataScientist_portfolio/blob/main/images/project_workflow.PNG)
+
+
+
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=<Python_logo>&logoColor=white&color=2bbc8a)
 
-Project Workflow:
+
 
 
