@@ -1,10 +1,10 @@
-# DataScientist_portfolio
+# My Projects
 
-# Hello, folks! <img src="https://raw.githubusercontent.com/MahaSwetha/MahaSwetha/master/wave.gif" width="30px">
+# Hello! <img src="https://raw.githubusercontent.com/MahaSwetha/MahaSwetha/master/wave.gif" width="30px">
 
 
 Here you can find all Data Science Projects
-<h1>📕 Overview of all Projects</h1>
+<h1>📕 Overview of the Projects</h1>
 
   # [Project1: Recipe Recommender based on KMeans Clustering](https://github.com/MahaGadiyaram/DataScientist_portfolio/tree/main/Recipe_Recommender)
   
