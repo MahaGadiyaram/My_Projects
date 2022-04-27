@@ -29,6 +29,10 @@ Here you can find all Data Science Projects
   
   ![alt text](https://github.com/MahaGadiyaram/DataScientist_portfolio/blob/main/images/ETL_workflow.PNG)
   
+  # [Project3: Global COVID Data Exploration with SQL](https://github.com/MahaGadiyaram/My_Projects/blob/main/SQLQuery_covid.sql)
+  1. SQL based project to explore Global COVID data
+   
+  
   
   
  
